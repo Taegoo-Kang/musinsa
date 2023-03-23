@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Musinsa Point API
+  profiles:
+    include:
+      - datasource
+  batch:
+    job:
+      enabled: false
+
